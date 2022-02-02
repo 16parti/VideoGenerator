@@ -8,8 +8,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	//(Volume/gain control)
 	//(pixel interpolation)
 	
-	var samplesPerFrame = 1626, sampleRate = 96000;
-	var videoWidth = 12, videoHeight = 271;
+	var samplesPerFrame = 3252*2, sampleRate = 96000;
+	var videoWidth = 12*2, videoHeight = 271*2;
 	
 	widthMultiplier = 20;
 	var videoCanvas = document.getElementById('videoCanvas');
