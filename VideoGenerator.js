@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	//(pixel interpolation)
 	
 	var samplesPerFrame = 3252*2, sampleRate = 96000;
-	var videoWidth = 12*2, videoHeight = 271;
+	var videoWidth = 12, videoHeight = 271;
 	
 	widthMultiplier = 20;
 	var videoCanvas = document.getElementById('videoCanvas');
