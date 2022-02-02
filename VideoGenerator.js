@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	//(Volume/gain control)
 	//(pixel interpolation)
 	
-	var samplesPerFrame = 3252/2, sampleRate = 96000;
+	var samplesPerFrame = 3252, sampleRate = 96000;
 	var videoWidth = 12, videoHeight = 271;
 	
 	widthMultiplier = 20;
